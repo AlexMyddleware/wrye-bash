@@ -836,13 +836,51 @@ from other packages previously overridden by the uninstalled package's
     </tbody>
 </table>
 <table>
-    <thead><tr><th>Text Formatting<th>Meaning
+    <thead>
+        <tr>
+            <th>Text Formatting</th>
+            <th>Meaning</th>
+        </tr>
+    </thead>
     <tbody>
-        <tr><td class="bain-symbols-blutxt">Navy Blue<td>The package contains sub-packages.
-        <tr><td class="bain-symbols-grytxt">Grey<td>BAIN does not recognise the structure of this package so cannot install it.
-        <tr><td class="bain-symbols-orgbg">Orange Background<td>The install is dirty. This will occur for packages for which the configuration has been altered (either by altering active sub-packages and esmps, or by altering the package itself). This can be repaired by running <a href="#bainAnneal">Anneal</a> or <a href="#bainAnnealAll">Anneal All</a>.
-        <tr><td class="bain-symbols-ylwbg">Yellow Background<td>The package has "underrides" i.e. some of its installed files <em>should</em> be overridden by higher order packages. This may happen after reordering mods that have already been installed. It can be repaired by running <a href="#bainAnneal">Anneal</a> or <a href="#bainAnnealAll">Anneal All</a>.
-        <tr><td class="bain-symbols-grybg">Grey Background<td>Some files present in the package will <em><strong>not</strong></em> be installed. This can be due to having a complicated structure only partially handled by BAIN, or having file types that BAIN skips. This can sometimes be fixed by telling BAIN that the package has extra directories by selecting <a href="Wrye%20Bash%20Advanced%20Readme.html#bainHasExtraDirectories"></a> in the right-click menu.
+        <tr>
+            <td class="bain-symbols-blutxt">Navy Blue</td>
+            <td>The package contains sub-packages.</td>
+        </tr>
+        <tr>
+            <td class="bain-symbols-grytxt">Grey</td>
+            <td>BAIN does not recognise the structure of this package and so
+                cannot install it.</td>
+        </tr>
+        <tr>
+            <td class="bain-symbols-orgbg">Orange Background</td>
+            <td>The install is dirty. This will occur for packages for which
+                the configuration has been altered (either by altering active
+                sub-packages and esmps, or by altering the package itself).
+                This can be repaired by running
+                <a href="#bainAnneal">Anneal</a> or
+                <a href="#bainAnnealAll">Anneal All</a>.</td>
+        </tr>
+        <tr>
+            <td class="bain-symbols-ylwbg">Yellow Background</td>
+            <td>The package has "underrides" i.e. some of its installed files
+                <em>should</em> be overridden by higher order packages, but
+                aren't. This may happen after reordering mods that have already
+                been installed. It can be repaired by running
+                <a href="#bainAnneal">Anneal</a> or
+                <a href="#bainAnnealAll">Anneal All</a>.</td>
+        </tr>
+        <tr>
+            <td class="bain-symbols-grybg">Grey Background</td>
+            <td>Some files present in the package will <strong>not</strong> be
+                installed. This can be due to having a complicated structure
+                only partially handled by BAIN, or having file types that BAIN
+                skips. This can sometimes be fixed by telling BAIN that the
+                package has extra directories by selecting
+                <a href="Wrye%20Bash%20Advanced%20Readme.html#bainHasExtraDirectories">Has Extra Directories</a>
+                in the right-click menu.</td>
+        </tr>
+    </tbody>
 </table>
 
 <h3 id="bain-commands">Useful Context Menu Commands <a class="back2top" href="#contents">Back to top</a></h3>
