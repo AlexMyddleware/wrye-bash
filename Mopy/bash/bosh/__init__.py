@@ -3182,8 +3182,7 @@ class BSAInfos(TableFileInfos):
         class BSAInfo(FileInfo, _bsa_type):
             _valid_exts_re = fr'(\.{bush.game.Bsa.bsa_extension[1:]})'
             def __init__(self, fullpath, **kwargs):
-                try:  # Never load_cache for memory reasons - do it JIT
-                    kwargs['load_cache'] = False
+                try:  # load_cache just resets the cache - see self.readHeader
                     super().__init__(fullpath, **kwargs)
                 except BSAError as e:
                     raise FileError(GPath(fullpath).tail,
