@@ -55,7 +55,7 @@ from ..brec import FormIdReadContext, FormIdWriteContext, ModReader, \
     RecordHeader, RemapWriteContext, unpack_header
 from ..exception import BoltError, BSAError, CancelError, \
     FailedIniInferError, FileError, ModError, PluginsFullError, SaveFileError, \
-    SaveHeaderError, SkipError, SkippedMergeablePluginsError
+    SaveHeaderError, SkipError, SkippedMergeablePluginsError, VfsError
 from ..ini_files import AIniInfo, GameIni, IniFileInfo, OBSEIniFile, \
     get_ini_type_and_encoding, supported_ini_exts
 from ..load_order import LordDiff
@@ -346,7 +346,7 @@ class _WithMastersInfo(FileInfo):
     """A File Info that has masters."""
 
     def __init__(self, fullpath, **kwargs):
-        self.header = None
+        # self.header = None # XXX - should be set by readHeader
         self.masterNames: tuple[FName, ...] = ()
         # True if the masters for this file are not reliable
         self.has_inaccurate_masters = False
@@ -354,9 +354,16 @@ class _WithMastersInfo(FileInfo):
         self.extras = {} # ModInfo only - don't use!
         super().__init__(fullpath, **kwargs)
 
-    def _reset_cache(self, stat_tuple, **kwargs):
+    def _reset_cache(self, stat_tuple, *, _check_689=None, **kwargs):
         super()._reset_cache(stat_tuple, **kwargs)
-        if kwargs.get('load_cache'): self.readHeader()
+        if kwargs.get('load_cache'):
+            try:
+                self.readHeader()
+            except OSError as e:
+                if _check_689:
+                    # mods (saves?) may come from a VFS? #689
+                    raise VfsError(self.abs_path, f'read error:{self}') from e
+                raise # will be handled later in __init__/do_update
 
     def readHeader(self):
         """Read header from file and set self.header attribute."""
@@ -1633,12 +1640,11 @@ class _AFileInfos(DataStore):
                         rdata.redraw.add(new)
                 else: # new file or updated corrupted, get a new info
                     self[new] = self.factory(self.store_dir.join(new),
-                        load_cache=True, raise_on_error=True, **kws)
+                        load_cache=True, _check_689=True, **kws)
                     self.corrupted.pop(new, None)
                     rdata.to_add.add(new)
-            except FileNotFoundError as e:
-                deprint(f'Non existing file passed to refresh: {e}')
-                continue # XXX: hack for #689
+            except VfsError:
+                continue
             except (FileError, UnicodeError, BoltError,
                     NotImplementedError) as e:
                 # old still corrupted, or new(ly) corrupted or we landed
