@@ -598,7 +598,7 @@ def checkMods(progress, modInfos, showModList=False, showCRC=False,
         """Logs a single collision with the specified FormID, injected status,
         origin plugin and collision info."""
         # FormIDs must be in long format at this point
-        proper_fid = format_fid(coll_fid, coll_plugin)
+        proper_fid = format_fid(coll_fid, coll_plugin, modInfos)
         if coll_inj:
             log('* ' + _('%(injected_formid)s injected into '
                          '%(injection_target)s, colliding versions:') % {
@@ -820,7 +820,7 @@ def checkMods(progress, modInfos, showModList=False, showCRC=False,
             for orig_plugin, dupe_count in duplicates_counter.items():
                 log('* ' + _('%(full_fid)s in %(orig_plugin)s: '
                              'occurs %(num_duplicates)d times') % {
-                    'full_fid': format_fid(orig_fid, orig_plugin),
+                    'full_fid': format_fid(orig_fid, orig_plugin, modInfos),
                     'orig_plugin': orig_plugin,
                     'num_duplicates': dupe_count,
                 })
