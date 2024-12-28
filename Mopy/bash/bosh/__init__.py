@@ -2025,7 +2025,7 @@ def _lo_cache(lord_func):
         load order or active changes."""
         try:
             ldiff: LordDiff = lord_func(self, *args, **kwargs)
-            if not (ldiff.act_changed() or ldiff.added or ldiff.missing):
+            if ldiff.inact_changes_only():
                 return ldiff
             # Update all data structures that may be affected by LO change
             ldiff.affected |= self._refresh_mod_inis_and_strings()
@@ -2122,10 +2122,9 @@ class ModInfos(TableFileInfos):
         else: # if refresh_infos is False but mods are added force refresh
             ldiff = self.refreshLoadOrder(forceRefresh=mods_changes or
                 unlock_lo, forceActive=bool(rdata.to_del), unlock_lo=unlock_lo)
-        rdata.redraw |= ldiff.reordered
+        rdata.redraw |= ldiff.reordered # any reordered mods must be redrawn
         # if active did not change, we must perform the refreshes below
-        if not ((act_ch := ldiff.act_changed()) or ldiff.added or
-                ldiff.missing):
+        if ldiff.inact_changes_only():
             # in case ini files were deleted or modified or maybe string files
             # were deleted... we need a load order below: in skyrim we read
             # inis in active order - we then need to redraw what changed status
@@ -2133,7 +2132,7 @@ class ModInfos(TableFileInfos):
             if mods_changes:
                 rdata.redraw |= self._file_or_active_updates()
         else: # we did all the refreshes above in _modinfos_cache_wrapper
-            rdata.redraw |= act_ch | ldiff.affected
+            rdata.redraw |= ldiff.act_changed() | ldiff.affected
         self._voAvailable, self.voCurrent = bush.game.modding_esms(self)
         return rdata
 
