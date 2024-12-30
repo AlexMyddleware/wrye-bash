@@ -254,18 +254,18 @@ class FileInfo(_TabledInfo, AFileInfo):
     """Abstract Mod, Save or BSA File. Features a half baked Backup API."""
     _null_stat = (-1, None, None)
 
-    def _stat_tuple(self, cached_stat=None):
-        return self.abs_path.size_mtime_ctime() if cached_stat is None else (
-            cached_stat.st_size, cached_stat.st_mtime, cached_stat.st_ctime)
-
     def __init__(self, fullpath, **kwargs):
         self.madeBackup = False
         super().__init__(fullpath, **kwargs)
 
+    def _stat_tuple(self, cached_stat=None):
+        return self.abs_path.size_mtime_ctime() if cached_stat is None else (
+            cached_stat.st_size, cached_stat.st_mtime, cached_stat.st_ctime)
+
     def _file_changed(self, stat_tuple):
         return (self.fsize, self.ftime, self.ctime) != stat_tuple
 
-    def _reset_cache(self, stat_tuple, *, load_cache=False, **kwargs):
+    def _reset_cache(self, stat_tuple, **kwargs):
         self.fsize, self.ftime, self.ctime = stat_tuple
 
     def setmtime(self, set_time: int | float = 0.0, crc_changed=False):
@@ -354,13 +354,13 @@ class _WithMastersInfo(FileInfo):
         self.extras = {} # ModInfo only - don't use!
         super().__init__(fullpath, **kwargs)
 
-    def _reset_cache(self, stat_tuple, *, load_cache=False, **kwargs):
-        super()._reset_cache(stat_tuple, load_cache=load_cache, **kwargs)
-        if load_cache: self.readHeader()
+    def _reset_cache(self, stat_tuple, **kwargs):
+        super()._reset_cache(stat_tuple, **kwargs)
+        if kwargs.get('load_cache'): self.readHeader()
 
     def readHeader(self):
         """Read header from file and set self.header attribute."""
-        raise NotImplementedError
+        self._reset_masters()
 
     def _reset_masters(self):
         #--Master Names/Order
@@ -744,7 +744,7 @@ class ModInfo(_WithMastersInfo):
         if bush.game.Esp.warn_older_form_versions:
             if self.header.header.form_version != RecordHeader.plugin_form_version:
                 modInfos.older_form_versions.add(self.fn_key)
-        self._reset_masters()
+        super().readHeader() # reset masters
         # check if we have a cached crc for this file, use fresh mtime and size
         self.calculate_crc() # for added and hopefully updated
         flags_dict = dict.fromkeys(chain(*bush.game.all_flags)) # values = None
@@ -1307,7 +1307,7 @@ class SaveInfo(_WithMastersInfo):
             self.header = get_save_header_type(bush.game.fsName)(self)
         except SaveHeaderError as e:
             raise SaveFileError(self.fn_key, e.args[0]) from e
-        self._reset_masters()
+        super().readHeader()
 
     def do_update(self, *, raise_on_error=False, **kwargs):
         # Check for new and deleted cosaves and do_update old, surviving ones
@@ -1769,9 +1769,9 @@ class INIInfo(IniFileInfo, AINIInfo):
     _valid_exts_re = r'(\.(?:' + '|'.join(
         x[1:] for x in supported_ini_exts) + '))'
 
-    def _reset_cache(self, stat_tuple, *, load_cache=False, **kwargs):
+    def _reset_cache(self, stat_tuple, **kwargs):
         super()._reset_cache(stat_tuple, **kwargs)
-        if load_cache: self.reset_status() ##: is the if check needed here?
+        self.reset_status()
 
 class ObseIniInfo(OBSEIniFile, INIInfo): pass
 
