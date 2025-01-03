@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wrye Bash v313\n"
 "POT-Creation-Date: 2024-01-07 22:03+0100\n"
-"PO-Revision-Date: 2024-12-19 18:21+0000\n"
-"Last-Translator: Infernio <infernio@icloud.com>\n"
+"PO-Revision-Date: 2024-12-26 04:01+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/wrye-bash/wrye-bash/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "Generated-By: pygettext.py 1.5\n"
 
 #: Mopy/bash/ScriptParser.py:102
@@ -296,7 +296,7 @@ msgid "Delete the selected items (some of the selected items cannot be deleted a
 msgstr "தேர்ந்தெடுக்கப்பட்ட உருப்படிகளை நீக்கவும் (தேர்ந்தெடுக்கப்பட்ட சில பொருட்களை நீக்க முடியாது, மேலும் தவிர்க்கப்படும்)."
 
 #: Mopy/bash/balt.py:1929 Mopy/bash/basher/installer_links.py:966
-#: Mopy/bash/basher/settings_dialog.py:690
+#: Mopy/bash/basher/settings_dialog.py:691
 msgid "Rename…"
 msgstr "மறுபெயரிடுங்கள்…"
 
@@ -588,7 +588,7 @@ msgstr "Wrye பாச் சரியாக நிறுவப்பட்ட�
 msgid "Wrye Bash needs administrator privileges to make changes to the %(gameName)s directory. If you do not start Wrye Bash with elevated privileges, you will be prompted at each operation that requires elevated privileges."
 msgstr "%(gameName)sோப்பகத்தில் மாற்றங்களைச் செய்ய WRYE பாசுக்கு நிர்வாகி சலுகைகள் தேவை. உயர்ந்த சலுகைகளுடன் நீங்கள் வெறுக்கத்தக்க பாசைத் தொடங்கவில்லை என்றால், ஒவ்வொரு செயல்பாட்டிலும் உயர்ந்த சலுகைகள் தேவைப்படும்."
 
-#: Mopy/bash/bash.py:671 Mopy/bash/basher/settings_dialog.py:755
+#: Mopy/bash/bash.py:671 Mopy/bash/basher/settings_dialog.py:756
 msgid "Backup Wrye Bash Settings"
 msgstr "காப்புப்பிரதி WRY BASH அமைப்புகள்"
 
@@ -980,7 +980,7 @@ msgid "Remove all shown tags from the plugin."
 msgstr "சொருகி இருந்து காட்டப்பட்டுள்ள அனைத்து குறிச்சொற்களையும் அகற்று."
 
 #: Mopy/bash/basher/__init__.py:1796 Mopy/bash/basher/gui_patchers.py:308
-#: Mopy/bash/basher/settings_dialog.py:1089
+#: Mopy/bash/basher/settings_dialog.py:1090
 msgid "Automatic"
 msgstr "தானியங்கி"
 
@@ -1190,8 +1190,8 @@ msgstr "புத்துணர்ச்சியூட்டும் தொ�
 msgid "Refreshing from %(data_folder)s…"
 msgstr "%(data_folder)s இலிருந்து புத்துணர்ச்சி…"
 
-#: Mopy/bash/basher/__init__.py:2836 Mopy/bash/basher/settings_dialog.py:587
-#: Mopy/bash/basher/settings_dialog.py:1542
+#: Mopy/bash/basher/__init__.py:2836 Mopy/bash/basher/settings_dialog.py:588
+#: Mopy/bash/basher/settings_dialog.py:1543
 #: Mopy/bash/basher/settings_dialog.py:1566
 #: Mopy/bash/basher/settings_dialog.py:1582
 msgid "General"
@@ -2437,7 +2437,7 @@ msgstr "%(data_folder)sோப்புறையில் நீங்கள் �
 msgid "Move the following files out of the %(data_folder)s folder?"
 msgstr "பின்வரும் கோப்புகளை %(data_folder)sோப்புறையில் இருந்து நகர்த்தவா?"
 
-#: Mopy/bash/basher/dialogs.py:593 Mopy/bash/basher/settings_dialog.py:862
+#: Mopy/bash/basher/dialogs.py:593 Mopy/bash/basher/settings_dialog.py:863
 #: Mopy/bash/gui/popups.py:63
 msgid "Move"
 msgstr "நகர்த்தவும்"
@@ -3021,7 +3021,7 @@ msgid "This option cannot be selected."
 msgstr "இந்த விருப்பத்தைத் தேர்ந்தெடுக்க முடியாது."
 
 #: Mopy/bash/basher/gui_fomod.py:327 Mopy/bash/basher/mod_links.py:428
-#: Mopy/bash/basher/settings_dialog.py:1403 Mopy/bash/bosh/__init__.py:1249
+#: Mopy/bash/basher/settings_dialog.py:1404 Mopy/bash/bosh/__init__.py:1249
 #: Mopy/bash/patcher/base.py:180 Mopy/bash/patcher/patchers/checkers.py:171
 #: Mopy/bash/patcher/patchers/mergers.py:961
 #: Mopy/bash/patcher/patchers/multitweak_settings.py:263
@@ -5191,7 +5191,7 @@ msgstr "உலகளாவிய அமைப்புகள்…"
 msgid "Allows you to configure various settings that apply to the entirety of Wrye Bash, not just one tab."
 msgstr "ஒரு தாவல் மட்டுமல்லாமல், முழு அளவிலான பாசுக்கு பொருந்தும் பல்வேறு அமைப்புகளை உள்ளமைக்க உங்களை அனுமதிக்கிறது."
 
-#: Mopy/bash/basher/misc_links.py:381 Mopy/bash/basher/settings_dialog.py:676
+#: Mopy/bash/basher/misc_links.py:381 Mopy/bash/basher/settings_dialog.py:677
 msgid "Save Data"
 msgstr "தரவைச் சேமிக்கவும்"
 
@@ -5523,7 +5523,7 @@ msgstr "தேர்ந்தெடுக்கப்பட்ட செரு�
 
 #: Mopy/bash/basher/mod_links.py:889
 msgid "Scan the selected plugins to determine whether or not they can be assigned the ESL flag or assigned the MID flag, reporting also the reasons if they cannot."
-msgstr "தேர்ந்தெடுக்கப்பட்ட செருகுநிரல்களை ச்கேன் செய்ய ESL கொடியை ஒதுக்க முடியுமா இல்லையா என்பதை தீர்மானிக்க அல்லது மேலடுக்கு கொடியை ஒதுக்க முடியுமா, அவர்களால் முடியாவிட்டால் காரணங்களையும் தெரிவிக்கவும்."
+msgstr "தேர்ந்தெடுக்கப்பட்ட செருகுநிரல்களை வருட இஎச்எல் கொடியை ஒதுக்க முடியுமா இல்லையா என்பதை தீர்மானிக்க அல்லது மேலடுக்கு கொடியை ஒதுக்க முடியுமா, அவர்களால் முடியாவிட்டால் காரணங்களையும் தெரிவிக்கவும்."
 
 #: Mopy/bash/basher/mod_links.py:895
 msgid "Scan the selected plugins to determine whether or not they can be merged into the Bashed Patch or assigned the MID flag, reporting also the reasons if they cannot."
@@ -6699,7 +6699,7 @@ msgstr "பொருந்தாத சி.ஆர்.சி.எச்"
 #: Mopy/bash/basher/mods_links.py:462
 #, python-format
 msgid "%(mismatched_plugin)s: cached is %(cached_crc_val)s, real is %(real_crc_val)s."
-msgstr "%(mismatched_plugin)s: cached is %(cached_crc_val)s, real is %(real_crc_val)s."
+msgstr "%(mismatched_plugin)s: தற்காலிக சேமிப்பு என்பது %(cached_crc_val)s, உண்மை %(real_crc_val)s."
 
 #: Mopy/bash/basher/mods_links.py:471
 msgid "No stale cached CRC values detected."
@@ -6827,120 +6827,120 @@ msgstr "மீண்டும்செய்"
 msgid "Redoes a load order or active plugins change."
 msgstr "சுமை ஆர்டர் அல்லது செயலில் உள்ள செருகுநிரல்கள் மாறுகின்றன."
 
-#: Mopy/bash/basher/mods_links.py:634 Mopy/bash/basher/settings_dialog.py:1362
+#: Mopy/bash/basher/mods_links.py:634 Mopy/bash/basher/settings_dialog.py:1363
 msgid "Export…"
 msgstr "ஏற்றுமதி…"
 
 #: Mopy/bash/basher/mods_links.py:635
 msgid "Exports the current load order (and active plugins) to a text file."
-msgstr ""
+msgstr "தற்போதைய சுமை வரிசையை (மற்றும் செயலில் உள்ள செருகுநிரல்கள்) உரை கோப்பில் ஏற்றுமதி செய்கிறது."
 
 #: Mopy/bash/basher/mods_links.py:640
 msgid "Note that the resulting export is not compatible with OBMM. Its main purpose is to be imported by Wrye Bash again."
-msgstr ""
+msgstr "இதன் விளைவாக ஏற்றுமதி OBMM உடன் பொருந்தாது என்பதை நினைவில் கொள்க. அதன் முக்கிய நோக்கம் மீண்டும் வ்ரியா பாச் மூலம் இறக்குமதி செய்யப்பட வேண்டும்."
 
 #: Mopy/bash/basher/mods_links.py:644
 msgid "Export Load Order - OBMM Interoperability Warning"
-msgstr ""
+msgstr "ஏற்றுமதி சுமை ஒழுங்கு - OBMM இயங்குதள எச்சரிக்கை"
 
 #: Mopy/bash/basher/mods_links.py:647
 msgid "Export Load Order - Destination"
-msgstr ""
+msgstr "ஏற்றுமதி சுமை வரிசை - இலக்கு"
 
 #: Mopy/bash/basher/mods_links.py:649 Mopy/bash/basher/mods_links.py:727
 msgid "Exported Load Order"
-msgstr ""
+msgstr "ஏற்றுமதி செய்யப்பட்ட சுமை வரிசை"
 
 #: Mopy/bash/basher/mods_links.py:654
 #, python-format
 msgid "Successfully exported the current load order to %(target_path)s."
-msgstr ""
+msgstr "தற்போதைய சுமை வரிசையை %(target_path)s வெற்றிகரமாக ஏற்றுமதி செய்தது."
 
 #: Mopy/bash/basher/mods_links.py:657
 msgid "Export Load Order - Success"
-msgstr ""
+msgstr "ஏற்றுமதி சுமை வரிசை - செய்"
 
 #: Mopy/bash/basher/mods_links.py:664
 #, python-format
 msgid "Load order exported by Wrye Bash v%(wb_ver)s for %(game_name)s"
-msgstr ""
+msgstr "சுமை ஆர்டர் V %(wb_ver)s %(game_name)s ஆல் ஏற்றுமதி செய்யப்பட்டது"
 
 #: Mopy/bash/basher/mods_links.py:680
 msgid "Failed to import the given load order. The file is malformed. The following line is causing a problem:"
-msgstr ""
+msgstr "கொடுக்கப்பட்ட சுமை வரிசையை இறக்குமதி செய்யத் தவறிவிட்டது. கோப்பு தவறாக உள்ளது. பின்வரும் வரி ஒரு சிக்கலை ஏற்படுத்துகிறது:"
 
 #: Mopy/bash/basher/mods_links.py:700
 #, python-format
 msgid "Successfully imported a load order from %(source_path)s."
-msgstr ""
+msgstr "%(source_path)s இலிருந்து சுமை வரிசையை வெற்றிகரமாக இறக்குமதி செய்தது."
 
-#: Mopy/bash/basher/mods_links.py:708 Mopy/bash/basher/settings_dialog.py:1357
+#: Mopy/bash/basher/mods_links.py:708 Mopy/bash/basher/settings_dialog.py:1358
 msgid "Import…"
 msgstr "இறக்குமதி…"
 
 #: Mopy/bash/basher/mods_links.py:709
 msgid "Imports a previously exported load order (and active plugins) from a text file."
-msgstr ""
+msgstr "உரை கோப்பிலிருந்து முன்னர் ஏற்றுமதி செய்யப்பட்ட சுமை வரிசையை (மற்றும் செயலில் உள்ள செருகுநிரல்கள்) இறக்குமதி செய்கிறது."
 
 #: Mopy/bash/basher/mods_links.py:711
 msgid "Import Load Order - Success"
-msgstr ""
+msgstr "சுமை வரிசையை இறக்குமதி - செய்"
 
 #: Mopy/bash/basher/mods_links.py:712
 msgid "Import Load Order - Warning"
-msgstr ""
+msgstr "இறக்குமதி எற்று ஒழுங்கு - எச்சரிக்கை"
 
 #: Mopy/bash/basher/mods_links.py:716
 msgid "Note that this command is not compatible with exports made in OBMM. They will not cause an error, but the result will be wrong. Use the dedicated 'Import From OBMM…' command to handle such exports."
-msgstr ""
+msgstr "இந்த கட்டளை OBMM இல் செய்யப்பட்ட ஏற்றுமதியுடன் பொருந்தாது என்பதை நினைவில் கொள்க. அவை பிழையை ஏற்படுத்தாது, ஆனால் இதன் விளைவாக தவறாக இருக்கும். அத்தகைய ஏற்றுமதியைக் கையாள பிரத்யேக 'OBMM இலிருந்து இறக்குமதி…' கட்டளையைப் பயன்படுத்தவும்."
 
 #: Mopy/bash/basher/mods_links.py:722
 msgid "Import Load Order - OBMM Interoperability Warning"
-msgstr ""
+msgstr "சுமை வரிசையை இறக்குமதி - OBMM இயங்குதள எச்சரிக்கை"
 
 #: Mopy/bash/basher/mods_links.py:725
 msgid "Import Load Order - Source"
-msgstr ""
+msgstr "சுமை வரிசையை இறக்குமதி - மூல"
 
 #: Mopy/bash/basher/mods_links.py:733
 msgid "Import Load Order - Error"
-msgstr ""
+msgstr "இறக்குமதி ஒழுங்கு - பிழை"
 
 #: Mopy/bash/basher/mods_links.py:772
 msgid "Import From OBMM…"
-msgstr ""
+msgstr "OBMM இலிருந்து இறக்குமதி…"
 
 #: Mopy/bash/basher/mods_links.py:773
 msgid "Imports active plugins from a text file exported by OBMM."
-msgstr ""
+msgstr "OBMM ஆல் ஏற்றுமதி செய்யப்பட்ட உரை கோப்பிலிருந்து செயலில் உள்ள செருகுநிரல்களை இறக்குமதி செய்கிறது."
 
 #: Mopy/bash/basher/mods_links.py:774
 msgid "Import From OBMM - Success"
-msgstr ""
+msgstr "OBMM இலிருந்து இறக்குமதி - செய்"
 
 #: Mopy/bash/basher/mods_links.py:775 Mopy/bash/basher/mods_links.py:787
 msgid "Import From OBMM - Warning"
-msgstr ""
+msgstr "OBMM இலிருந்து இறக்குமதி - எச்சரிக்கை"
 
 #: Mopy/bash/basher/mods_links.py:781
 msgid "Note that this command is always going to result in imperfect imports, because OBMM does not export the order of inactive plugins. Wrye Bash will do its best, but you should check the result manually."
-msgstr ""
+msgstr "இந்த கட்டளை எப்போதுமே அபூரண இறக்குமதியை ஏற்படுத்தும் என்பதை நினைவில் கொள்க, ஏனென்றால் செயலற்ற செருகுநிரல்களின் வரிசையை OBMM ஏற்றுமதி செய்யாது. Wrye பாச் அதன் சிறந்ததைச் செய்யும், ஆனால் நீங்கள் முடிவை கைமுறையாக சரிபார்க்க வேண்டும்."
 
 #: Mopy/bash/basher/mods_links.py:789
 msgid "Import From OBMM - Source"
-msgstr ""
+msgstr "OBMM - மூலத்திலிருந்து இறக்குமதி"
 
 #: Mopy/bash/basher/mods_links.py:791
 msgid "OBMM Export"
-msgstr ""
+msgstr "OBMM ஏற்றுமதி"
 
 #: Mopy/bash/basher/mods_links.py:797
 msgid "Import From OBMM - Error"
-msgstr ""
+msgstr "OBMM இலிருந்து இறக்குமதி - பிழை"
 
 #: Mopy/bash/basher/mods_links.py:814
 msgid "Could not determine encoding."
-msgstr ""
+msgstr "குறியாக்கத்தை தீர்மானிக்க முடியவில்லை."
 
 #: Mopy/bash/basher/patcher_dialog.py:53
 msgid "Export Bashed Patch configuration to:"
@@ -7640,7 +7640,7 @@ msgid "Brazilian Portuguese"
 msgstr "பிரேசிலிய போர்த்துகீசியம்"
 
 #: Mopy/bash/basher/settings_dialog.py:436
-#: Mopy/bash/basher/settings_dialog.py:1092
+#: Mopy/bash/basher/settings_dialog.py:1093
 msgid "Russian"
 msgstr "ரச்ய"
 
@@ -7649,654 +7649,658 @@ msgid "Swedish"
 msgstr "ச்வீடிச்"
 
 #: Mopy/bash/basher/settings_dialog.py:438
+msgid "Tamil"
+msgstr "தமிழ்"
+
+#: Mopy/bash/basher/settings_dialog.py:439
 msgid "Turkish"
 msgstr "துருக்கிய"
 
-#: Mopy/bash/basher/settings_dialog.py:439
+#: Mopy/bash/basher/settings_dialog.py:440
 msgid "Ukrainian"
 msgstr "உக்ரேனிய"
 
-#: Mopy/bash/basher/settings_dialog.py:440
-#: Mopy/bash/basher/settings_dialog.py:1090
+#: Mopy/bash/basher/settings_dialog.py:441
+#: Mopy/bash/basher/settings_dialog.py:1091
 msgid "Chinese (Simplified)"
 msgstr "சீன (எளிமைப்படுத்தப்பட்ட)"
 
-#: Mopy/bash/basher/settings_dialog.py:441
-#: Mopy/bash/basher/settings_dialog.py:1091
+#: Mopy/bash/basher/settings_dialog.py:442
+#: Mopy/bash/basher/settings_dialog.py:1092
 msgid "Chinese (Traditional)"
 msgstr "சீன (பாரம்பரிய)"
 
-#: Mopy/bash/basher/settings_dialog.py:469
+#: Mopy/bash/basher/settings_dialog.py:470
 msgid "Changes the language that Wrye Bash will be displayed in."
 msgstr "Wrye பாச் காண்பிக்கப்படும் மொழியை மாற்றுகிறது."
 
-#: Mopy/bash/basher/settings_dialog.py:475
+#: Mopy/bash/basher/settings_dialog.py:476
 msgid "Change Language"
 msgstr "மொழியை மாற்றவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:478
+#: Mopy/bash/basher/settings_dialog.py:479
 msgid "Want to help translate Wrye Bash into your language?"
 msgstr "உங்கள் மொழியில் Wrye மொழி மொழிபெயர்க்க உதவ விரும்புகிறீர்களா?"
 
-#: Mopy/bash/basher/settings_dialog.py:480
+#: Mopy/bash/basher/settings_dialog.py:481
 msgid "Visit our Weblate page!"
 msgstr "எங்கள் வலைபெயர்ப்பு பக்கத்தைப் பார்வையிடவும்!"
 
-#: Mopy/bash/basher/settings_dialog.py:506
+#: Mopy/bash/basher/settings_dialog.py:507
 #, python-format
 msgid "Language: %(selected_language)s"
 msgstr "மொழி: %(selected_language)s"
 
-#: Mopy/bash/basher/settings_dialog.py:517
+#: Mopy/bash/basher/settings_dialog.py:518
 msgid "Use Alternate Wrye Bash Name"
 msgstr "மாற்று WRY BASH பெயரைப் பயன்படுத்தவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:518
+#: Mopy/bash/basher/settings_dialog.py:519
 msgid "Use an alternate display name for Wrye Bash based on the game it is managing."
 msgstr "அது நிர்வகிக்கும் விளையாட்டின் அடிப்படையில் WRYE பாசுக்கு மாற்று காட்சி பெயரைப் பயன்படுத்தவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:522
-#: Mopy/bash/basher/settings_dialog.py:553
+#: Mopy/bash/basher/settings_dialog.py:523
+#: Mopy/bash/basher/settings_dialog.py:554
 msgid "Reverse Icon Colors"
 msgstr "தலைகீழ் படவுரு வண்ணங்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:523
+#: Mopy/bash/basher/settings_dialog.py:524
 msgid "Replace black icons used by Wrye Bash with white ones. Useful if you are using an OS theme that makes those icons hard to see."
 msgstr "WRYA பாச் பயன்படுத்தும் கருப்பு சின்னங்களை வெள்ளை நிறத்துடன் மாற்றவும். அந்த ஐகான்களைப் பார்க்க கடினமாக இருக்கும் OS கருப்பொருளைப் பயன்படுத்துகிறீர்கள் என்றால் பயனுள்ளதாக இருக்கும்."
 
-#: Mopy/bash/basher/settings_dialog.py:566
+#: Mopy/bash/basher/settings_dialog.py:567
 msgid "Show App Version"
 msgstr "பயன்பாட்டு பதிப்பைக் காட்டு"
 
-#: Mopy/bash/basher/settings_dialog.py:567
+#: Mopy/bash/basher/settings_dialog.py:568
 msgid "Show/hide version numbers for buttons on the status bar."
 msgstr "நிலை பட்டியில் பொத்தான்களுக்கான பதிப்பு எண்களைக் காட்டு/மறைக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:573
+#: Mopy/bash/basher/settings_dialog.py:574
 msgid "Sets the status bar icons to the selected size in pixels."
 msgstr "ச்டேட்டச் பார் ஐகான்களை பிக்சல்களில் தேர்ந்தெடுக்கப்பட்ட அளவிற்கு அமைக்கிறது."
 
-#: Mopy/bash/basher/settings_dialog.py:579
+#: Mopy/bash/basher/settings_dialog.py:580
 msgid "Hidden Buttons"
 msgstr "மறைக்கப்பட்ட பொத்தான்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:579
+#: Mopy/bash/basher/settings_dialog.py:580
 msgid "Visible Buttons"
 msgstr "தெரியும் பொத்தான்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:580
+#: Mopy/bash/basher/settings_dialog.py:581
 msgid "Make the selected button visible again."
 msgstr "தேர்ந்தெடுக்கப்பட்ட பொத்தானை மீண்டும் காணச் செய்யுங்கள்."
 
-#: Mopy/bash/basher/settings_dialog.py:581
+#: Mopy/bash/basher/settings_dialog.py:582
 msgid "Hide the selected button."
 msgstr "தேர்ந்தெடுக்கப்பட்ட பொத்தானை மறைக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:591
+#: Mopy/bash/basher/settings_dialog.py:592
 msgid "Icon Size:"
 msgstr "படவுரு அளவு:"
 
-#: Mopy/bash/basher/settings_dialog.py:596
+#: Mopy/bash/basher/settings_dialog.py:597
 msgid "Manage Hidden Buttons"
 msgstr "மறைக்கப்பட்ட பொத்தான்களை நிர்வகிக்கவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:631
+#: Mopy/bash/basher/settings_dialog.py:632
 #, python-format
 msgid "Icon Size: %(new_icon_size)d"
 msgstr "படவுரு அளவு: %(new_icon_size)d"
 
-#: Mopy/bash/basher/settings_dialog.py:677
+#: Mopy/bash/basher/settings_dialog.py:678
 msgid "Save all of Wrye Bash's settings/data now."
 msgstr "WRYA BASH இன் அமைப்புகள்/தரவு அனைத்தையும் இப்போது சேமிக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:679
+#: Mopy/bash/basher/settings_dialog.py:680
 msgid "New Backup…"
 msgstr "புதிய காப்புப்பிரதி…"
 
-#: Mopy/bash/basher/settings_dialog.py:680
+#: Mopy/bash/basher/settings_dialog.py:681
 msgid "Backup all of Wrye Bash's settings/data to an archive file."
 msgstr "WRYA BASH இன் அமைப்புகள்/தரவு அனைத்தையும் காப்பக கோப்பில் காப்புப் பிரதி எடுக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:683
+#: Mopy/bash/basher/settings_dialog.py:684
 msgid "Set Backups Directory…"
 msgstr "காப்புப்பிரதிகள் கோப்பகத்தை அமைக்கவும்…"
 
-#: Mopy/bash/basher/settings_dialog.py:684
+#: Mopy/bash/basher/settings_dialog.py:685
 msgid "Select the directory containing your backups."
 msgstr "உங்கள் காப்புப்பிரதிகளைக் கொண்ட கோப்பகத்தைத் தேர்ந்தெடுக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:686
+#: Mopy/bash/basher/settings_dialog.py:687
 msgid "Restore…"
 msgstr "மீட்டமை…"
 
-#: Mopy/bash/basher/settings_dialog.py:687
+#: Mopy/bash/basher/settings_dialog.py:688
 msgid "Restore all of Wrye Bash's settings/data from the selected backup."
 msgstr "தேர்ந்தெடுக்கப்பட்ட காப்புப்பிரதியிலிருந்து WRYA பாசின் அமைப்புகள்/தரவு அனைத்தையும் மீட்டெடுக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:691
+#: Mopy/bash/basher/settings_dialog.py:692
 msgid "Rename the selected backup archive."
 msgstr "தேர்ந்தெடுக்கப்பட்ட காப்பு காப்பகத்தை மறுபெயரிடுங்கள்."
 
-#: Mopy/bash/basher/settings_dialog.py:693
+#: Mopy/bash/basher/settings_dialog.py:694
 msgid "Delete…"
 msgstr "நீக்கு…"
 
-#: Mopy/bash/basher/settings_dialog.py:694
+#: Mopy/bash/basher/settings_dialog.py:695
 msgid "Delete the selected backup archive."
 msgstr "தேர்ந்தெடுக்கப்பட்ட காப்பு காப்பகத்தை நீக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:745
+#: Mopy/bash/basher/settings_dialog.py:746
 msgid "Set Backups Directory"
 msgstr "காப்புப்பிரதிகள் கோப்பகத்தை அமைக்கவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:784
+#: Mopy/bash/basher/settings_dialog.py:785
 msgid "Rename Backup"
 msgstr "காப்புப்பிரதி என மறுபெயரிடுங்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:785
+#: Mopy/bash/basher/settings_dialog.py:786
 msgid "Please enter the new name for this backup."
 msgstr "இந்த காப்புப்பிரதிக்கு புதிய பெயரை உள்ளிடவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:796
+#: Mopy/bash/basher/settings_dialog.py:797
 #, python-format
 msgid "Are you sure you want to restore your Wrye Bash settings from '%(chosen_backup)s'?"
 msgstr "'%(chosen_backup)s' இலிருந்து உங்கள் WRYE BASH அமைப்புகளை மீட்டெடுக்க விரும்புகிறீர்களா?"
 
-#: Mopy/bash/basher/settings_dialog.py:798
+#: Mopy/bash/basher/settings_dialog.py:799
 msgid "This will force a restart of Wrye Bash once your settings are restored."
 msgstr "உங்கள் அமைப்புகள் மீட்டெடுக்கப்பட்டவுடன் இது வ்ரி மொழி மறுதொடக்கம் செய்ய கட்டாயப்படுத்தும்."
 
-#: Mopy/bash/basher/settings_dialog.py:799
+#: Mopy/bash/basher/settings_dialog.py:800
 msgid "Restore Wrye Bash Settings?"
 msgstr "WRYE BASH அமைப்புகளை மீட்டெடுக்கவா?"
 
-#: Mopy/bash/basher/settings_dialog.py:819
+#: Mopy/bash/basher/settings_dialog.py:820
 msgid "Your Wrye Bash settings have been successfully extracted."
 msgstr "உங்கள் WRY BASH அமைப்புகள் வெற்றிகரமாக பிரித்தெடுக்கப்பட்டுள்ளன."
 
-#: Mopy/bash/basher/settings_dialog.py:821
+#: Mopy/bash/basher/settings_dialog.py:822
 #, python-format
 msgid "Backup Path: %(backup_file)s"
 msgstr "காப்பு பாதை: %(backup_file)s"
 
-#: Mopy/bash/basher/settings_dialog.py:824
+#: Mopy/bash/basher/settings_dialog.py:825
 msgid "Before the settings can take effect, Wrye Bash must restart."
 msgstr "அமைப்புகள் நடைமுறைக்கு வருவதற்கு முன்பு, WRYE பாச் மறுதொடக்கம் செய்ய வேண்டும்."
 
-#: Mopy/bash/basher/settings_dialog.py:826
+#: Mopy/bash/basher/settings_dialog.py:827
 msgid "Click OK to restart now."
 msgstr "இப்போது மறுதொடக்கம் செய்ய சரி என்பதைக் சொடுக்கு செய்க."
 
-#: Mopy/bash/basher/settings_dialog.py:827
+#: Mopy/bash/basher/settings_dialog.py:828
 msgid "Wrye Bash Settings Extracted"
 msgstr "பிரித்தெடுக்கப்பட்ட பாச் அமைப்புகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:846
+#: Mopy/bash/basher/settings_dialog.py:847
 msgid "Wrye Bash settings files were successfully saved."
 msgstr "WRYA BASH அமைப்புகள் கோப்புகள் வெற்றிகரமாக சேமிக்கப்பட்டன."
 
-#: Mopy/bash/basher/settings_dialog.py:847
+#: Mopy/bash/basher/settings_dialog.py:848
 msgid "Save Settings"
 msgstr "அமைப்புகளை சேமிக்கவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:860
+#: Mopy/bash/basher/settings_dialog.py:861
 msgid "Ask every time"
 msgstr "ஒவ்வொரு முறையும் கேளுங்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:861 Mopy/bash/bolt.py:1812
+#: Mopy/bash/basher/settings_dialog.py:862 Mopy/bash/bolt.py:1817
 #: Mopy/bash/bosh/bain.py:1425 Mopy/bash/gui/popups.py:65
 msgid "Copy"
 msgstr "நகலெடு"
 
-#: Mopy/bash/basher/settings_dialog.py:872
+#: Mopy/bash/basher/settings_dialog.py:873
 msgid "[INI Edits] Applying an INI tweak"
 msgstr "[இது திருத்தங்கள்] இந்த மாற்றங்களைப் பயன்படுத்துங்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:874
+#: Mopy/bash/basher/settings_dialog.py:875
 msgid "[Installers, Screenshots] Opening a lot of items"
 msgstr "[நிறுவிகள், திரை சாட்கள்] நிறைய உருப்படிகளைத் திறக்கிறது"
 
-#: Mopy/bash/basher/settings_dialog.py:876
+#: Mopy/bash/basher/settings_dialog.py:877
 msgid "[Installers] Exporting package order"
 msgstr "[நிறுவிகள்] தொகுப்பு ஆர்டரை ஏற்றுமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:878
+#: Mopy/bash/basher/settings_dialog.py:879
 msgid "[Installers] Installing unconfigured complex packages"
 msgstr "[நிறுவிகள்] கட்டமைக்கப்படாத சிக்கலான தொகுப்புகளை நிறுவுதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:880
+#: Mopy/bash/basher/settings_dialog.py:881
 #, python-format
 msgid "[Installers] Opening a mod's page at the %(target_nexus_name)s"
 msgstr "[Installers] Opening a mod's page at the %(target_nexus_name)s"
 
-#: Mopy/bash/basher/settings_dialog.py:883
+#: Mopy/bash/basher/settings_dialog.py:884
 msgid "[Installers] Opening a mod's page at TES Alliance"
 msgstr "[நிறுவிகள்] TES கூட்டணியில் ஒரு மோட் இன் பக்கத்தைத் திறக்கும்"
 
-#: Mopy/bash/basher/settings_dialog.py:885
+#: Mopy/bash/basher/settings_dialog.py:886
 msgid "[Installers] Overwriting a package via drag and drop"
 msgstr "[நிறுவிகள்] இழுத்து துளி வழியாக ஒரு தொகுப்பை மேலெழுதும்"
 
-#: Mopy/bash/basher/settings_dialog.py:887
+#: Mopy/bash/basher/settings_dialog.py:888
 msgid "[Installers] Overwriting a BCF via drag and drop"
 msgstr "[நிறுவிகள்] இழுவை மற்றும் துளி வழியாக ஒரு பி.சி.எஃப்"
 
-#: Mopy/bash/basher/settings_dialog.py:889
+#: Mopy/bash/basher/settings_dialog.py:890
 msgid "[Installers] Searching for a mod on Google"
 msgstr "[நிறுவிகள்] கூகிளில் ஒரு மோட் தேடுகிறது"
 
-#: Mopy/bash/basher/settings_dialog.py:891
+#: Mopy/bash/basher/settings_dialog.py:892
 msgid "[Installers] Trying to reorder installers, but Install Order column not selected"
 msgstr "[நிறுவிகள்] நிறுவிகளை மறுவரிசைப்படுத்த முயற்சிக்கிறது, ஆனால் ஆர்டர் நெடுவரிசை தேர்ந்தெடுக்கப்படவில்லை"
 
-#: Mopy/bash/basher/settings_dialog.py:894
+#: Mopy/bash/basher/settings_dialog.py:895
 msgid "[Masters] Editing or updating a master list"
 msgstr "[முதுநிலை] முதன்மை பட்டியலைத் திருத்துதல் அல்லது புதுப்பித்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:896
+#: Mopy/bash/basher/settings_dialog.py:897
 msgid "[Mods] Adding or removing the ESL flag from a plugin"
 msgstr "[மோட்ச்] ஒரு சொருகி இருந்து ESL கொடியைச் சேர்ப்பது அல்லது அகற்றுதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:898
+#: Mopy/bash/basher/settings_dialog.py:899
 msgid "[Mods] Adding or removing the ESM flag from a plugin"
 msgstr "[மோட்ச்] ஒரு சொருகி இருந்து ESM கொடியைச் சேர்ப்பது அல்லது அகற்றுதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:900
+#: Mopy/bash/basher/settings_dialog.py:901
 msgid "[Mods] Adding or removing the ESM flag from a plugin's masters"
 msgstr "[மோட்ச்] ஒரு சொருகி எசமானர்களிடமிருந்து ESM கொடியைச் சேர்ப்பது அல்லது அகற்றுதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:902
+#: Mopy/bash/basher/settings_dialog.py:903
 msgid "[Mods] Applying the Nvidia Fog Fix"
 msgstr "[மோட்ச்] என்விடியா மூடுபனி பிழைத்திருத்தத்தைப் பயன்படுத்துதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:904
+#: Mopy/bash/basher/settings_dialog.py:905
 msgid "[Mods] Changing a plugin's version to 0.8"
 msgstr "[மோட்ச்] ஒரு சொருகி பதிப்பை 0.8 ஆக மாற்றுவது"
 
-#: Mopy/bash/basher/settings_dialog.py:906
+#: Mopy/bash/basher/settings_dialog.py:907
 msgid "[Mods] Exporting load order to a text file: OBMM warning"
-msgstr ""
+msgstr "[மோட்ச்] ஒரு உரை கோப்பிற்கு சுமை வரிசையை ஏற்றுமதி செய்தல்: OBMM எச்சரிக்கை"
 
-#: Mopy/bash/basher/settings_dialog.py:908
+#: Mopy/bash/basher/settings_dialog.py:909
 msgid "[Mods] Exporting NPC levels to a text file"
 msgstr "[மோட்ச்] NPC அளவை உரை கோப்புக்கு ஏற்றுமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:910
+#: Mopy/bash/basher/settings_dialog.py:911
 msgid "[Mods] Importing groups from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து குழுக்களை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:912
+#: Mopy/bash/basher/settings_dialog.py:913
 msgid "[Mods] Importing editor IDs from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து எடிட்டர் ஐடிகளை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:914
+#: Mopy/bash/basher/settings_dialog.py:915
 msgid "[Mods] Importing ingredients from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து பொருட்களை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:916
+#: Mopy/bash/basher/settings_dialog.py:917
 msgid "[Mods] Importing load order from a text file: OBMM warning"
-msgstr ""
+msgstr "[மோட்ச்] ஒரு உரை கோப்பிலிருந்து சுமை வரிசையை இறக்குமதி செய்தல்: OBMM எச்சரிக்கை"
 
-#: Mopy/bash/basher/settings_dialog.py:918
+#: Mopy/bash/basher/settings_dialog.py:919
 msgid "[Mods] Importing names from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து பெயர்களை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:920
+#: Mopy/bash/basher/settings_dialog.py:921
 msgid "[Mods] Importing NPC levels from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து NPC அளவை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:922
+#: Mopy/bash/basher/settings_dialog.py:923
 msgid "[Mods] Importing prices from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து விலைகளை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:924
+#: Mopy/bash/basher/settings_dialog.py:925
 msgid "[Mods] Importing relations from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து உறவுகளை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:926
+#: Mopy/bash/basher/settings_dialog.py:927
 msgid "[Mods] Importing scripts from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து ச்கிரிப்ட்களை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:928
+#: Mopy/bash/basher/settings_dialog.py:929
 msgid "[Mods] Importing sigil stones from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து சிகில் கற்களை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:930
+#: Mopy/bash/basher/settings_dialog.py:931
 msgid "[Mods] Importing spells from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து எழுத்துப்பிழைகளை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:932
+#: Mopy/bash/basher/settings_dialog.py:933
 msgid "[Mods] Importing stats from a text file"
 msgstr "[மோட்ச்] உரை கோப்பிலிருந்து புள்ளிவிவரங்களை இறக்குமதி செய்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:934
+#: Mopy/bash/basher/settings_dialog.py:935
 msgid "[Mods] Locking or unlocking the load order"
 msgstr "[மோட்ச்] சுமை வரிசையை பூட்டுதல் அல்லது திறத்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:936
+#: Mopy/bash/basher/settings_dialog.py:937
 msgid "[Mods] Removing world orphans"
 msgstr "[மோட்ச்] உலக அனாதைகளை நீக்குதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:938
+#: Mopy/bash/basher/settings_dialog.py:939
 #, python-format
 msgid "[Mods] Renaming a plugin to something that %(game_name)s can't load"
 msgstr "[மோட்ச்] ஒரு சொருகி %(game_name)s ஏற்ற முடியாத ஒன்றுக்கு மறுபெயரிடுதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:941
+#: Mopy/bash/basher/settings_dialog.py:942
 msgid "[Mods] Reordering plugins by name"
 msgstr "[மோட்ச்] பெயரால் செருகுநிரல்களை மறுவரிசைப்படுத்துதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:943
+#: Mopy/bash/basher/settings_dialog.py:944
 msgid "[Mods] Replacing a plugin's FormIDs based on a text file"
 msgstr "[மோட்ச்] உரை கோப்பின் அடிப்படையில் ஒரு சொருகி வடிவங்களை மாற்றுகிறது"
 
-#: Mopy/bash/basher/settings_dialog.py:945
+#: Mopy/bash/basher/settings_dialog.py:946
 msgid "[Mods] Resetting groups to default ones"
 msgstr "[மோட்ச்] குழுக்களை இயல்புநிலைக்கு மீட்டமைக்கிறது"
 
-#: Mopy/bash/basher/settings_dialog.py:947
+#: Mopy/bash/basher/settings_dialog.py:948
 msgid "[Mods] Synchronizing groups to currently active ones"
 msgstr "[மோட்ச்] குழுக்களை தற்போது செயலில் உள்ளவற்றுடன் ஒத்திசைத்தல்"
 
-#: Mopy/bash/basher/settings_dialog.py:949
+#: Mopy/bash/basher/settings_dialog.py:950
 msgid "[Mods] Trying to activate plugins that can't be activated"
 msgstr "[மோட்ச்] செயல்படுத்த முடியாத செருகுநிரல்களை செயல்படுத்த முயற்சிக்கிறது"
 
-#: Mopy/bash/basher/settings_dialog.py:951
+#: Mopy/bash/basher/settings_dialog.py:952
 msgid "[Mods] Trying to deactivate plugins that can't be deactivated"
 msgstr "[மோட்ச்] செயலிழக்க முடியாத செருகுநிரல்களை செயலிழக்க முயற்சிக்கிறது"
 
-#: Mopy/bash/basher/settings_dialog.py:953
+#: Mopy/bash/basher/settings_dialog.py:954
 msgid "[Mods] Trying to reorder plugins, but Load Order column not selected"
 msgstr "[மோட்ச்] செருகுநிரல்களை மறுவரிசைப்படுத்த முயற்சிக்கிறது, ஆனால் ஆர்டர் நெடுவரிசை தேர்ந்தெடுக்கப்படவில்லை"
 
-#: Mopy/bash/basher/settings_dialog.py:956
+#: Mopy/bash/basher/settings_dialog.py:957
 msgid "[Mods] Trying to reorder plugins that can't be reordered"
 msgstr "[மோட்ச்] மறுவரிசைப்படுத்த முடியாத செருகுநிரல்களை மறுவரிசைப்படுத்த முயற்சிக்கிறது"
 
-#: Mopy/bash/basher/settings_dialog.py:958
+#: Mopy/bash/basher/settings_dialog.py:959
 msgid "[Mods] Using Decompile All to undo a 'Recompile All'"
 msgstr "[மோட்ச்] ஒரு 'அனைத்தையும் மறுபரிசீலனை செய்யுங்கள்' என்பதை செயல்தவிர்க்க அனைவரையும் சிதைப்பது பயன்படுத்துதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:960
+#: Mopy/bash/basher/settings_dialog.py:961
 msgid "[Saves] Disabling a save"
 msgstr "[சேமிக்கிறது] சேமிப்பதை முடக்குதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:962
+#: Mopy/bash/basher/settings_dialog.py:963
 msgid "[Saves] Updating NPC levels in a save based on current plugins"
 msgstr "தற்போதைய செருகுநிரல்களின் அடிப்படையில் சேமிப்பில் NPC அளவைப் புதுப்பித்தல் [சேமிக்கிறது]"
 
-#: Mopy/bash/basher/settings_dialog.py:964
+#: Mopy/bash/basher/settings_dialog.py:965
 msgid "[Settings] Switching the currently managed game"
 msgstr "[அமைப்புகள்] தற்போது நிர்வகிக்கப்பட்ட விளையாட்டை மாற்றுதல்"
 
-#: Mopy/bash/basher/settings_dialog.py:977
+#: Mopy/bash/basher/settings_dialog.py:978
 msgid "Show Internal Keys"
 msgstr "உள் விசைகளைக் காட்டு"
 
-#: Mopy/bash/basher/settings_dialog.py:978
+#: Mopy/bash/basher/settings_dialog.py:979
 msgid "If checked, show the internal key Wrye Bash uses to store these settings as well."
 msgstr "சரிபார்க்கப்பட்டால், இந்த அமைப்புகளையும் சேமிக்க உள் விசை WRYE பாச் பயன்பாடுகளைக் காட்டுங்கள்."
 
-#: Mopy/bash/basher/settings_dialog.py:985
+#: Mopy/bash/basher/settings_dialog.py:986
 msgid "Choose what to do with files that are dropped onto the Installers tab."
 msgstr "நிறுவிகள் தாவலில் கைவிடப்பட்ட கோப்புகளை என்ன செய்ய வேண்டும் என்பதைத் தேர்வுசெய்க."
 
-#: Mopy/bash/basher/settings_dialog.py:994
+#: Mopy/bash/basher/settings_dialog.py:995
 msgid "Drop Action:"
 msgstr "துளி நடவடிக்கை:"
 
-#: Mopy/bash/basher/settings_dialog.py:997
+#: Mopy/bash/basher/settings_dialog.py:998
 msgid "Unchecking an entry below will reenable that prompt and vice versa."
 msgstr "கீழே உள்ள ஒரு நுழைவைத் தேர்வுசெய்வது அந்த வரியில் மற்றும் நேர்மாறாக மீண்டும் உருவாக்கப்படும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1017
+#: Mopy/bash/basher/settings_dialog.py:1018
 msgid "Activating this setting will discard all changes you have made below. Are you sure you want to proceed?"
 msgstr "இந்த அமைப்பை செயல்படுத்துவது நீங்கள் கீழே செய்த அனைத்து மாற்றங்களையும் நிராகரிக்கும். நீங்கள் தொடர விரும்புகிறீர்களா?"
 
-#: Mopy/bash/basher/settings_dialog.py:1020
+#: Mopy/bash/basher/settings_dialog.py:1021
 msgid "Warning: Unapplied Changes"
 msgstr "எச்சரிக்கை: பயன்படுத்தப்படாத மாற்றங்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1093
+#: Mopy/bash/basher/settings_dialog.py:1094
 msgid "Japanese (Shift_JIS)"
 msgstr "சப்பானிய (சிப்ட்_சிச்)"
 
-#: Mopy/bash/basher/settings_dialog.py:1095
+#: Mopy/bash/basher/settings_dialog.py:1096
 msgid "Western European (English, French, German, etc)"
 msgstr "மேற்கு ஐரோப்பிய (ஆங்கிலம், பிரஞ்சு, செர்மன், முதலியன)"
 
-#: Mopy/bash/basher/settings_dialog.py:1099
+#: Mopy/bash/basher/settings_dialog.py:1100
 msgid "Both"
 msgstr "இரண்டும்"
 
-#: Mopy/bash/basher/settings_dialog.py:1100
+#: Mopy/bash/basher/settings_dialog.py:1101
 msgid "Global Menu Only"
 msgstr "உலகளாவிய பட்டியல் மட்டுமே"
 
-#: Mopy/bash/basher/settings_dialog.py:1101
+#: Mopy/bash/basher/settings_dialog.py:1102
 msgid "Column Menu Only"
 msgstr "நெடுவரிசை பட்டியல் மட்டுமே"
 
-#: Mopy/bash/basher/settings_dialog.py:1112
+#: Mopy/bash/basher/settings_dialog.py:1113
 msgid "Changes which game Wrye Bash is managing."
 msgstr "எந்த விளையாட்டை வெரிய பாச் நிர்வகிக்கிறது என்பதை மாற்றுகிறது."
 
-#: Mopy/bash/basher/settings_dialog.py:1116
+#: Mopy/bash/basher/settings_dialog.py:1117
 msgid "Changes the encoding Wrye Bash will use to read and write plugins."
 msgstr "செருகுநிரல்களைப் படிக்கவும் எழுதவும் குறியாக்க வின்னர் பாச் பயன்படுத்தும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1122
+#: Mopy/bash/basher/settings_dialog.py:1123
 msgid "'requests' not installed, update checking disabled."
 msgstr "'கோரிக்கைகள்' நிறுவப்படவில்லை, முடக்கப்பட்ட சரிபார்ப்பைப் புதுப்பிக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1127
+#: Mopy/bash/basher/settings_dialog.py:1128
 msgid "Check on Startup"
 msgstr "தொடக்கத்தில் சரிபார்க்கவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:1128
+#: Mopy/bash/basher/settings_dialog.py:1129
 msgid "Whether or not Wrye Bash should check to see if a newer version is available when it is launched."
 msgstr "புதிய பதிப்பு தொடங்கப்படும்போது அது கிடைக்குமா என்பதைப் பார்க்க பாச் சரிபார்க்க வேண்டுமா இல்லையா."
 
-#: Mopy/bash/basher/settings_dialog.py:1134
+#: Mopy/bash/basher/settings_dialog.py:1135
 msgid "Do not check for updates again until this many hours have elapsed since the last check. Set to 0 to check on every startup."
 msgstr "கடைசி காசோலை முதல் இந்த பல மணிநேரங்கள் கடந்துவிட்ட வரை மீண்டும் புதுப்பிப்புகளை சரிபார்க்க வேண்டாம். ஒவ்வொரு தொடக்கத்தையும் சரிபார்க்க 0 என அமைக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1140
+#: Mopy/bash/basher/settings_dialog.py:1141
 msgid "Cooldown (hours):"
 msgstr "கூல்டவுன் (மணிநேரம்):"
 
-#: Mopy/bash/basher/settings_dialog.py:1145
+#: Mopy/bash/basher/settings_dialog.py:1146
 msgid "Check for Updates"
 msgstr "புதுப்பிப்புகளை சரிபார்க்கவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:1146
+#: Mopy/bash/basher/settings_dialog.py:1147
 msgid "Check for Wrye Bash updates right now."
 msgstr "WRYA BASH புதுப்பிப்புகளை இப்போது சரிபார்க்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1152
+#: Mopy/bash/basher/settings_dialog.py:1153
 msgid "Choose whether only the global menu, only the column header menus, or both should be enabled."
 msgstr "உலகளாவிய பட்டியல் மட்டுமே, நெடுவரிசை தலைப்பு மெனுக்கள் அல்லது இரண்டும் இயக்கப்பட வேண்டுமா என்பதைத் தேர்வுசெய்க."
 
-#: Mopy/bash/basher/settings_dialog.py:1156
+#: Mopy/bash/basher/settings_dialog.py:1157
 msgid "Global or Column Menu:"
 msgstr "உலகளாவிய அல்லது நெடுவரிசை மெனு:"
 
-#: Mopy/bash/basher/settings_dialog.py:1162
+#: Mopy/bash/basher/settings_dialog.py:1163
 msgid "Restore Scroll Positions on Start"
 msgstr "தொடக்கத்தில் உருள் நிலைகளை மீட்டெடுக்கவும்"
 
-#: Mopy/bash/basher/settings_dialog.py:1163
+#: Mopy/bash/basher/settings_dialog.py:1164
 msgid "Remember where you left off last time and scroll back down to that plugin/save/etc. on startup. May cause a moderate slowdown in Wrye Bash's boot process if you have a very large number of plugins/saves/etc."
 msgstr "கடைசியாக நீங்கள் எங்கு விட்டுவிட்டீர்கள் என்பதை நினைவில் வைத்துக் கொள்ளுங்கள், அந்த சொருகி/சேமி/போன்றவற்றுக்கு மீண்டும் உருட்டவும். தொடக்கத்தில். உங்களிடம் மிகப் பெரிய எண்ணிக்கையிலான செருகுநிரல்கள்/சேமிப்பு/போன்றவை இருந்தால், வ்ரியா பாசின் துவக்க செயல்முறையில் மிதமான மந்தநிலையை ஏற்படுத்தக்கூடும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1171
-#: Mopy/bash/basher/settings_dialog.py:1343
+#: Mopy/bash/basher/settings_dialog.py:1172
+#: Mopy/bash/basher/settings_dialog.py:1344
 msgid "Administrator Mode"
 msgstr "நிர்வாகி பயன்முறை"
 
-#: Mopy/bash/basher/settings_dialog.py:1172
+#: Mopy/bash/basher/settings_dialog.py:1173
 msgid "Restart Wrye Bash with administrator privileges."
 msgstr "நிர்வாகி சலுகைகளுடன் Wrye மொழி மறுதொடக்கம் செய்யுங்கள்."
 
-#: Mopy/bash/basher/settings_dialog.py:1183
+#: Mopy/bash/basher/settings_dialog.py:1184
 msgid "Open a file dialog to interactively choose the path at which Wrye Bash will store temporary files."
 msgstr "தற்காலிக கோப்புகளை சேமிக்கும் பாதையை ஊடாடும் வகையில் தேர்வு செய்ய ஒரு கோப்பு உரையாடலைத் திறக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1189
+#: Mopy/bash/basher/settings_dialog.py:1190
 msgid "Reset the path at which Wrye Bash will store temporary files back to its default value."
 msgstr "தற்காலிக கோப்புகளை அதன் இயல்புநிலை மதிப்புக்கு மீண்டும் சேமிக்கும் பாதையை மீட்டமைக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1195
+#: Mopy/bash/basher/settings_dialog.py:1196
 msgid "Game"
 msgstr "விளையாட்டு"
 
-#: Mopy/bash/basher/settings_dialog.py:1197
+#: Mopy/bash/basher/settings_dialog.py:1198
 msgid "Managed Game:"
 msgstr "நிர்வகிக்கப்பட்ட விளையாட்டு:"
 
-#: Mopy/bash/basher/settings_dialog.py:1200
+#: Mopy/bash/basher/settings_dialog.py:1201
 msgid "Plugin Encoding:"
 msgstr "சொருகி குறியாக்கம்:"
 
-#: Mopy/bash/basher/settings_dialog.py:1203
+#: Mopy/bash/basher/settings_dialog.py:1204
 msgid "Updates"
 msgstr "புதுப்பிப்புகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1212
-#: Mopy/bash/basher/settings_dialog.py:1330
+#: Mopy/bash/basher/settings_dialog.py:1213
+#: Mopy/bash/basher/settings_dialog.py:1331
 msgid "Temporary Folder"
 msgstr "தற்காலிக கோப்புறை"
 
-#: Mopy/bash/basher/settings_dialog.py:1218
-#: Mopy/bash/basher/settings_dialog.py:1537
+#: Mopy/bash/basher/settings_dialog.py:1219
+#: Mopy/bash/basher/settings_dialog.py:1538
 #: Mopy/bash/basher/settings_dialog.py:1555
 #: Mopy/bash/basher/settings_dialog.py:1577
 msgid "Miscellaneous"
 msgstr "மற்றவை"
 
-#: Mopy/bash/basher/settings_dialog.py:1267
+#: Mopy/bash/basher/settings_dialog.py:1268
 #, python-format
 msgid "You are already using the newest version of Wrye Bash, version %(wb_version)s."
 msgstr "நீங்கள் ஏற்கனவே Wrye Bash, பதிப்பு %(wb_version)s இன் புதிய பதிப்பைப் பயன்படுத்துகிறீர்கள்."
 
-#: Mopy/bash/basher/settings_dialog.py:1270
+#: Mopy/bash/basher/settings_dialog.py:1271
 msgid "No Newer Version Available"
 msgstr "புதிய பதிப்பு எதுவும் கிடைக்கவில்லை"
 
-#: Mopy/bash/basher/settings_dialog.py:1272
+#: Mopy/bash/basher/settings_dialog.py:1273
 msgid "Failed to contact GitHub for update checking. Check your Internet connection."
 msgstr "புதுப்பிப்பு சோதனைக்கு கிதுபைத் தொடர்பு கொள்ளத் தவறிவிட்டது. உங்கள் இணைய இணைப்பை சரிபார்க்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1274
+#: Mopy/bash/basher/settings_dialog.py:1275
 msgid "Failed To Check for Updates"
 msgstr "புதுப்பிப்புகளை சரிபார்க்கத் தவறிவிட்டது"
 
-#: Mopy/bash/basher/settings_dialog.py:1282
+#: Mopy/bash/basher/settings_dialog.py:1283
 msgid "Choose Temporary Folder"
 msgstr "தற்காலிக கோப்புறையைத் தேர்வுசெய்க"
 
-#: Mopy/bash/basher/settings_dialog.py:1297
+#: Mopy/bash/basher/settings_dialog.py:1298
 #, python-format
 msgid "Switching games this way will simply relaunch this Wrye Bash installation with the %(cli_game_detect)s command line switch."
 msgstr "விளையாட்டுகளை இந்த வழியில் மாற்றுவது இந்த WRY BASH நிறுவலை %(cli_game_detect)s கட்டளை வரி சுவிட்சுடன் மீண்டும் தொடங்கும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1301
+#: Mopy/bash/basher/settings_dialog.py:1302
 msgid "That means manually added application launchers in the status bar will not change after switching."
 msgstr "அதாவது, நிலை பட்டியில் கைமுறையாக சேர்க்கப்பட்ட பயன்பாட்டு துவக்கிகள் மாறிய பின் மாறாது."
 
-#: Mopy/bash/basher/settings_dialog.py:1306
+#: Mopy/bash/basher/settings_dialog.py:1307
 #, python-format
 msgid "Managed Game: %(chosen_game)s"
 msgstr "நிர்வகிக்கப்பட்ட விளையாட்டு: %(chosen_game)s"
 
-#: Mopy/bash/basher/settings_dialog.py:1316
+#: Mopy/bash/basher/settings_dialog.py:1317
 #, python-format
 msgid "Plugin Encoding: %(chosen_encoding)s"
 msgstr "சொருகி குறியாக்கம்: %(chosen_encoding)s"
 
-#: Mopy/bash/basher/settings_dialog.py:1352
-#: Mopy/bash/basher/settings_dialog.py:1543
+#: Mopy/bash/basher/settings_dialog.py:1353
+#: Mopy/bash/basher/settings_dialog.py:1544
 #: Mopy/bash/basher/settings_dialog.py:1568
 #: Mopy/bash/basher/settings_dialog.py:1583
 msgid "Trusted Binaries"
 msgstr "நம்பகமான இருமங்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1353
+#: Mopy/bash/basher/settings_dialog.py:1354
 msgid "Untrusted Binaries"
 msgstr "நம்பத்தகாத பைனரிகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1354
+#: Mopy/bash/basher/settings_dialog.py:1355
 msgid "Mark the selected binary as trusted."
 msgstr "தேர்ந்தெடுக்கப்பட்ட பைனரியை நம்பகமானதாகக் குறிக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1355
+#: Mopy/bash/basher/settings_dialog.py:1356
 msgid "Mark the selected binary as untrusted."
 msgstr "தேர்ந்தெடுக்கப்பட்ட பைனரியை நம்பத்தகாததாகக் குறிக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1358
+#: Mopy/bash/basher/settings_dialog.py:1359
 msgid "Import list of allowed/disallowed binaries from a .txt file. This also allows more fine-grained control over trusted binary versions."
 msgstr ".Txt கோப்பிலிருந்து அனுமதிக்கப்பட்ட/அனுமதிக்கப்படாத பைனரிகளின் பட்டியல் இறக்குமதி செய்யுங்கள். இது நம்பகமான பைனரி பதிப்புகளின் மீது இன்னும் சிறந்த கட்டுப்பாட்டை அனுமதிக்கிறது."
 
-#: Mopy/bash/basher/settings_dialog.py:1363
+#: Mopy/bash/basher/settings_dialog.py:1364
 msgid "Export list of allowed/disallowed binaries to a .txt file. This also allows more fine-grained control over trusted binary versions."
 msgstr ".Txt கோப்பிற்கு அனுமதிக்கப்பட்ட/அனுமதிக்கப்படாத பைனரிகளின் ஏற்றுமதி பட்டியல். இது நம்பகமான பைனரி பதிப்புகளின் மீது இன்னும் சிறந்த கட்டுப்பாட்டை அனுமதிக்கிறது."
 
-#: Mopy/bash/basher/settings_dialog.py:1387
+#: Mopy/bash/basher/settings_dialog.py:1388
 msgid "Export list of allowed/disallowed plugin DLLs to:"
 msgstr "அனுமதிக்கப்பட்ட/அனுமதிக்கப்படாத சொருகி dlls இன் ஏற்றுமதி பட்டியல்:"
 
-#: Mopy/bash/basher/settings_dialog.py:1388
+#: Mopy/bash/basher/settings_dialog.py:1389
 msgid "DLL permissions"
 msgstr "Dll அனுமதிகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1395
+#: Mopy/bash/basher/settings_dialog.py:1396
 #, python-format
 msgid "Exported by Wrye Bash v%(wb_version)s"
 msgstr "Wrye Bash v%(wb_version)s மூலம் ஏற்றுமதி செய்யப்பட்டது"
 
-#: Mopy/bash/basher/settings_dialog.py:1397
+#: Mopy/bash/basher/settings_dialog.py:1398
 msgid "Binaries whose installation you have allowed"
 msgstr "அதன் நிறுவலை நீங்கள் அனுமதித்த பைனரிகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1398
+#: Mopy/bash/basher/settings_dialog.py:1399
 msgid "Binaries whose installation you have forbidden"
 msgstr "அதன் நிறுவலைத் தடைசெய்துள்ள பைனரிகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1415
+#: Mopy/bash/basher/settings_dialog.py:1416
 msgid "dll permissions"
 msgstr "dll அனுமதிகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1416
+#: Mopy/bash/basher/settings_dialog.py:1417
 msgid "Import list of allowed/disallowed plugin DLLs from:"
 msgstr "அனுமதிக்கப்பட்ட/அனுமதிக்கப்படாத சொருகி டி.எல்.எல் இன் இறக்குமதி பட்டியல்:"
 
-#: Mopy/bash/basher/settings_dialog.py:1420
+#: Mopy/bash/basher/settings_dialog.py:1421
 msgid "Merge permissions from file with current dll permissions?"
 msgstr "தற்போதைய டி.எல்.எல் அனுமதிகளுடன் கோப்பிலிருந்து அனுமதிகளை ஒன்றிணைக்கவா?"
 
-#: Mopy/bash/basher/settings_dialog.py:1421
+#: Mopy/bash/basher/settings_dialog.py:1422
 msgid "('No' Replaces current permissions instead.)"
 msgstr "('இல்லை' அதற்கு பதிலாக தற்போதைய அனுமதிகளை மாற்றுகிறது.)"
 
-#: Mopy/bash/basher/settings_dialog.py:1422
+#: Mopy/bash/basher/settings_dialog.py:1423
 msgid "Merge permissions?"
 msgstr "அனுமதிகளை ஒன்றிணைக்கவா?"
 
-#: Mopy/bash/basher/settings_dialog.py:1479
+#: Mopy/bash/basher/settings_dialog.py:1480
 #, python-format
 msgid "Wrye Bash could not load %(import_file)s, because it is not saved in UTF-8 format. Please resave it in UTF-8 format and try again."
 msgstr "UTF-8 வடிவத்தில் இது சேமிக்கப்படாததால், வெறித்தனமான பாச் %(import_file)s ஏற்ற முடியவில்லை. தயவுசெய்து அதை UTF-8 வடிவத்தில் மீட்டெடுத்து மீண்டும் முயற்சிக்கவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1485
+#: Mopy/bash/basher/settings_dialog.py:1486
 #, python-format
 msgid "Wrye Bash could not load %(import_file)s, because there was an error in the format of the file."
 msgstr "WRYE பாச் %(import_file)s ஏற்ற முடியவில்லை, ஏனெனில் கோப்பின் வடிவத்தில் பிழை இருந்தது."
 
-#: Mopy/bash/basher/settings_dialog.py:1534
-#: Mopy/bash/basher/settings_dialog.py:1547
-#: Mopy/bash/basher/settings_dialog.py:1550
-#: Mopy/bash/basher/settings_dialog.py:1552
+#: Mopy/bash/basher/settings_dialog.py:1535
+#: Mopy/bash/basher/settings_dialog.py:1548
+#: Mopy/bash/basher/settings_dialog.py:1551
+#: Mopy/bash/basher/settings_dialog.py:1553
 #: Mopy/bash/basher/settings_dialog.py:1555
 #: Mopy/bash/basher/settings_dialog.py:1557
 #: Mopy/bash/basher/settings_dialog.py:1575
@@ -8306,47 +8310,47 @@ msgstr "WRYE பாச் %(import_file)s ஏற்ற முடியவில�
 msgid "Appearance"
 msgstr "தோற்றம்"
 
-#: Mopy/bash/basher/settings_dialog.py:1535
-#: Mopy/bash/basher/settings_dialog.py:1550
+#: Mopy/bash/basher/settings_dialog.py:1536
+#: Mopy/bash/basher/settings_dialog.py:1551
 #: Mopy/bash/basher/settings_dialog.py:1575
 msgid "Colors"
 msgstr "நிறங்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1536
-#: Mopy/bash/basher/settings_dialog.py:1552
+#: Mopy/bash/basher/settings_dialog.py:1537
+#: Mopy/bash/basher/settings_dialog.py:1553
 #: Mopy/bash/basher/settings_dialog.py:1576
 msgid "Language"
 msgstr "மொழி"
 
-#: Mopy/bash/basher/settings_dialog.py:1538
+#: Mopy/bash/basher/settings_dialog.py:1539
 #: Mopy/bash/basher/settings_dialog.py:1557
 #: Mopy/bash/basher/settings_dialog.py:1578
 msgid "Status Bar"
 msgstr "நிலை பட்டி"
 
-#: Mopy/bash/basher/settings_dialog.py:1540
+#: Mopy/bash/basher/settings_dialog.py:1541
 #: Mopy/bash/basher/settings_dialog.py:1560
 #: Mopy/bash/basher/settings_dialog.py:1580
 msgid "Backups"
 msgstr "காப்புப்பிரதிகள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1541
+#: Mopy/bash/basher/settings_dialog.py:1542
 #: Mopy/bash/basher/settings_dialog.py:1563
 #: Mopy/bash/basher/settings_dialog.py:1581
 msgid "Confirmations"
 msgstr "உறுதிப்படுத்தல்கள்"
 
-#: Mopy/bash/basher/settings_dialog.py:1548
+#: Mopy/bash/basher/settings_dialog.py:1549
 msgid "Personalize various aspects of how Wrye Bash looks, including colors and some GUI options."
 msgstr "வண்ணங்கள் மற்றும் சில GUI விருப்பங்கள் உட்பட, பாச் எவ்வாறு தோற்றமளிக்கிறது என்பதற்கான பல்வேறு அம்சங்களைத் தனிப்பயனாக்குங்கள்."
 
-#: Mopy/bash/basher/settings_dialog.py:1551
+#: Mopy/bash/basher/settings_dialog.py:1552
 msgid "Change colors of various GUI components."
 msgstr "பல்வேறு GUI கூறுகளின் வண்ணங்களை மாற்றவும்."
 
-#: Mopy/bash/basher/settings_dialog.py:1553
-msgid "Change the language that Wrye Bash is displayed in and manage localizations."
-msgstr "Wrye பாச் காட்டப்படும் மொழியை மாற்றி, உள்ளூர்மயமாக்கல்களை நிர்வகிக்கவும்."
+#: Mopy/bash/basher/settings_dialog.py:1554
+msgid "Change the language that Wrye Bash is displayed in."
+msgstr "வ்ரை பாச் காண்பிக்கப்படும் மொழியை மாற்று."
 
 #: Mopy/bash/basher/settings_dialog.py:1556
 msgid "Change various miscellaneous appearance settings."
@@ -8376,26 +8380,26 @@ msgstr "நீங்கள் நம்பும் எந்த பைனரி
 msgid "<very large>"
 msgstr "<மிகப் பெரியது>"
 
-#: Mopy/bash/bolt.py:1750
+#: Mopy/bash/bolt.py:1755
 msgid "Name may not be empty."
 msgstr "பெயர் காலியாக இருக்காது."
 
-#: Mopy/bash/bolt.py:1753
+#: Mopy/bash/bolt.py:1758
 #, python-format
 msgid "%(new_name)s contains invalid character (%(bad_char)s)."
 msgstr "%(bad_char)s தவறான தன்மை (%(new_name)s) கொண்டுள்ளது."
 
-#: Mopy/bash/bolt.py:1765
+#: Mopy/bash/bolt.py:1770
 #, python-format
 msgid "Bad extension or file root (%(ext_or_root)s)."
 msgstr "மோசமான நீட்டிப்பு அல்லது கோப்பு ரூட் (%(ext_or_root)s)."
 
-#: Mopy/bash/bolt.py:1773
+#: Mopy/bash/bolt.py:1778
 #, python-format
 msgid "%(bad_name_str)s: Incorrect file extension (must be %(expected_ext)s)."
 msgstr "%(bad_name_str)s: தவறான கோப்பு நீட்டிப்பு ( %(expected_ext)s இருக்க வேண்டும்)."
 
-#: Mopy/bash/bolt.py:1874
+#: Mopy/bash/bolt.py:1879
 #, python-format
 msgid "File %(bad_name_str)s already exists."
 msgstr "கோப்பு %(bad_name_str)s ஏற்கனவே உள்ளன."
@@ -8585,7 +8589,7 @@ msgstr "சி.ஆர்.சி கணக்கிடுதல்:"
 #: Mopy/bash/bosh/__init__.py:3393
 #, python-format
 msgid "Error reading the Wrye Bash Settings database (the error is '%(settings_err)s'). This is probably not recoverable with the current file. Do you want to try the backup %(settings_file_name)s (it will have all your settings from the second to last time that you used Wrye Bash)?"
-msgstr "WRYE BASH அமைப்புகள் தரவுத்தளத்தைப் படிப்பதில் பிழை (பிழை '%(settings_err)s'). இது தற்போதைய கோப்பில் மீட்டெடுக்கப்படாது. காப்புப்பிரதி %(settings_file_name)s ஐ முயற்சிக்க விரும்புகிறீர்களா (இது உங்கள் எல்லா அமைப்புகளையும் இரண்டாவது முதல் கடைசி நேரம்வரை நீங்கள் WRYE BASH ஐப் பயன்படுத்தியிருக்கும்)?"
+msgstr "எழுதுபேசு அமைப்புகள் தரவுத்தளத்தைப் படிப்பதில் பிழை எற்பட்டது(பிழை '%(settings_err)s'). இது தற்போதைய கோப்பில் மீட்டெடுக்கப்படாது. காப்புப்பிரதி %(settings_file_name)s ஐ முயற்சிக்க விரும்புகிறீர்களா (இது உங்கள் எல்லா அமைப்புகளையும் இரண்டாவது முதல் கடைசி நேரம்வரை நீங்கள் WRYE BASH ஐப் பயன்படுத்தியிருக்கும்)?"
 
 #: Mopy/bash/bosh/__init__.py:3401 Mopy/bash/bosh/__init__.py:3413
 #: Mopy/bash/bosh/__init__.py:3423
@@ -10047,7 +10051,7 @@ msgstr "தேர்ந்தெடுக்கப்பட்ட செரு�
 #: Mopy/bash/game/__init__.py:99
 #, python-format
 msgid "This plugin is already %(FLAG)s-flagged."
-msgstr "இந்தச் சொருகி ஏற்கனவே %(FLAG)s-கொடியது."
+msgstr "இந்தச் சொருகி ஏற்கனவே %(FLAG)s-கொடிஉடையது."
 
 #: Mopy/bash/game/__init__.py:114
 #, python-format
@@ -10080,7 +10084,7 @@ msgstr "பின்வரும் செருகுநிரல்கள் %
 #: Mopy/bash/game/__init__.py:201
 #, python-format
 msgid "Mods: %(status_num)d/%(total_status_num)d (ESP/M: %(status_num_espm)d, ESL: %(ESL)d)"
-msgstr "மோட்ச்: %(status_num)d/%(total_status_num)d (ESP/M: %(status_num_espm)d, ESL: %(ESL)d)"
+msgstr "தொகுதிகள்: %(status_num)d/%(total_status_num)d (இஎச்பி/எம்: %(status_num_espm)d, இஎச்எல்: %(ESL)d)"
 
 #: Mopy/bash/game/__init__.py:204
 #, python-format
@@ -11951,7 +11955,7 @@ msgstr "இதை சரிசெய்ய காணாமல் போன எ�
 #: Mopy/bash/patcher/patchers/base.py:168
 #, python-format
 msgid "%(merged_plugin)s is supposed to be merged into the Bashed Patch, but some of its masters (%(inactive_masters)s) are inactive."
-msgstr "%(merged_plugin)s is supposed to be merged into the Bashed Patch, but some of its masters (%(inactive_masters)s) are inactive."
+msgstr "%(merged_plugin)s என்பது பேசுடு ஒட்டில் இணைக்கப்பட வேண்டும், ஆனால் அதன் சில முதன்மைகள் (%(inactive_masters)s) செயலற்றவை."
 
 #: Mopy/bash/patcher/patchers/base.py:171
 msgid "Please activate the inactive masters to fix this."
@@ -15118,7 +15122,7 @@ msgstr "%(FLAG)s-திறன்"
 #: Mopy/bash/plugin_types.py:180
 #, python-format
 msgid "The following plugins could be %(FLAG)s-flagged."
-msgstr ""
+msgstr "பின்வரும் செருகுநிரல்கள் %(FLAG)s-கொழுப்பாக இருக்கலாம்."
 
 #: Mopy/bash/plugin_types.py:192
 msgid "Merged into Bashed Patch."
@@ -15169,6 +15173,9 @@ msgstr "இந்த கோப்புறையை தற்காலிக க
 #: Mopy/bash/wbtemp.py:109
 msgid "If all instances of Wrye Bash are closed and you still see directories and/or files in here, you can freely delete them."
 msgstr "WRYE BASH இன் அனைத்து நிகழ்வுகளும் மூடப்பட்டிருந்தால், நீங்கள் இன்னும் கோப்பகங்கள் மற்றும்/அல்லது கோப்புகளைக் கண்டால், அவற்றை நீங்கள் சுதந்திரமாக நீக்கலாம்."
+
+#~ msgid "Change the language that Wrye Bash is displayed in and manage localizations."
+#~ msgstr "Wrye பாச் காட்டப்படும் மொழியை மாற்றி, உள்ளூர்மயமாக்கல்களை நிர்வகிக்கவும்."
 
 #~ msgid "Export..."
 #~ msgstr "ஏற்றுமதி ..."
