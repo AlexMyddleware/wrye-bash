@@ -7844,7 +7844,7 @@ msgstr ""
 msgid "Ask every time"
 msgstr ""
 
-#: Mopy/bash/basher/settings_dialog.py:862 Mopy/bash/bolt.py:1812
+#: Mopy/bash/basher/settings_dialog.py:862 Mopy/bash/bolt.py:1817
 #: Mopy/bash/bosh/bain.py:1425 Mopy/bash/gui/popups.py:65
 msgid "Copy"
 msgstr ""
@@ -8377,26 +8377,26 @@ msgstr ""
 msgid "<very large>"
 msgstr ""
 
-#: Mopy/bash/bolt.py:1750
+#: Mopy/bash/bolt.py:1755
 msgid "Name may not be empty."
 msgstr ""
 
-#: Mopy/bash/bolt.py:1753
+#: Mopy/bash/bolt.py:1758
 #, python-format
 msgid "%(new_name)s contains invalid character (%(bad_char)s)."
 msgstr ""
 
-#: Mopy/bash/bolt.py:1765
+#: Mopy/bash/bolt.py:1770
 #, python-format
 msgid "Bad extension or file root (%(ext_or_root)s)."
 msgstr ""
 
-#: Mopy/bash/bolt.py:1773
+#: Mopy/bash/bolt.py:1778
 #, python-format
 msgid "%(bad_name_str)s: Incorrect file extension (must be %(expected_ext)s)."
 msgstr ""
 
-#: Mopy/bash/bolt.py:1874
+#: Mopy/bash/bolt.py:1879
 #, python-format
 msgid "File %(bad_name_str)s already exists."
 msgstr ""
