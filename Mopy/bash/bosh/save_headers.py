@@ -275,6 +275,7 @@ class SaveFileHeader(object):
     def load_image_data(self, ins, load_image=False):
         bpp = (4 if self.has_alpha else 3)
         image_size = bpp * self.ssWidth * self.ssHeight
+        print("image_size in load_image_data", image_size)
         if load_image:
             self.ssData = bytearray(ins.read(image_size))
         else:
@@ -284,9 +285,11 @@ class SaveFileHeader(object):
         self._load_from_unpackers(ins, self.__class__._unpackers_post_ss)
         self.masters = []
         numMasters = unpack_byte(ins)
+        print("numMasters", numMasters)
         append_master = self.masters.append
         for count in range(numMasters):
             append_master(unpack_str8(ins))
+        print("masters", self.masters)
 
     def _decode_masters(self):
         self.masters = [FName(decoder(x, bolt.pluginEncoding,
@@ -314,6 +317,10 @@ class SaveFileHeader(object):
 
     @property
     def image_parameters(self):
+        print("image width", self.ssWidth)
+        print("image height", self.ssHeight)
+        print("image data length", len(self.ssData))
+        print("has alpha", self.has_alpha)
         return self.ssWidth, self.ssHeight, self.ssData, self.has_alpha
 
     def write_header(self, ins, out):
